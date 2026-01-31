@@ -1,4 +1,4 @@
-# WCODEREADER
+# WCodeReader 
 
 **WCODEREADER** is a fast and reliable Android app to **scan barcodes and QR codes**, manage your products, and export your product list to CSV.
 
