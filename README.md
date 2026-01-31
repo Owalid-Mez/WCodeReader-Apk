@@ -1,6 +1,6 @@
-# WCodeReader 
+# WCodeReader  v1.0
 
-**WCODEREADER** is a fast and reliable Android app to **scan barcodes and QR codes**, manage your products, and export your product list to CSV.
+**WCodeReader** is a fast and reliable Android app to **scan barcodes and QR codes**, manage your products, and export your product list to CSV.
 
 ## Features
 
