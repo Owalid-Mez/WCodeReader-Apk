@@ -59,12 +59,13 @@ You can download the latest release APK from the [Releases page](https://github.
 ---
 
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/725fa869-144f-4a8e-b4d5-f43b76b92b89" width="200" />
+  <img src="https://github.com/user-attachments/assets/1058870d-9f65-4f50-b258-64119fffb78b" width="200" />
+    <img src="https://github.com/user-attachments/assets/259ddc57-e7fe-4f85-b813-a1aa88b6a415" width="200" />
+</p>
+
 ## Changelog
-
-<img src="https://github.com/user-attachments/assets/1058870d-9f65-4f50-b258-64119fffb78b" width="50%"/>
-<img src="https://github.com/user-attachments/assets/725fa869-144f-4a8e-b4d5-f43b76b92b89" width="50%"/>
-<img src="https://github.com/user-attachments/assets/259ddc57-e7fe-4f85-b813-a1aa88b6a415" width="50%"/>
-
 
 
 ### v1.1 - 2026-02-05
