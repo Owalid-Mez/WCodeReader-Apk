@@ -58,7 +58,12 @@ You can download the latest release APK from the [Releases page](https://github.
 
 ---
 
+
 ## Changelog
+![Screenshot_2026-02-05-09-12-43-984_com abrsiwar wcodereader](https://github.com/user-attachments/assets/259ddc57-e7fe-4f85-b813-a1aa88b6a415)
+![Screenshot_2026-02-05-09-12-12-126_com abrsiwar wcodereader](https://github.com/user-attachments/assets/1058870d-9f65-4f50-b258-64119fffb78b)
+![Screenshot_2026-02-05-09-11-45-448_com abrsiwar wcodereader](https://github.com/user-attachments/assets/725fa869-144f-4a8e-b4d5-f43b76b92b89)
+
 
 ### v1.1 - 2026-02-05
 - Added **Advanced Mode** with:
