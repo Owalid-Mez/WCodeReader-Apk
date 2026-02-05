@@ -1,12 +1,15 @@
-# WCodeReader v1.0
+# WCodeReader v1.0 / v1.1
 
 **WCodeReader** is a fast and reliable Android app to **scan barcodes and QR codes**, manage your products, and export your product list to CSV.  
 It provides a simple, professional interface with **Material Design components** and enhanced usability.
 
-You can **create a new database** or **upload your own product database (CSV/JSON)** to automatically load product names when scanning.
+With the new **v1.1 Advanced Mode**, you can now manage detailed product information including prices, manufacture and expiry dates, and get alerts for products nearing expiration.
+
+---
 
 ## Features
 
+### v1.0 (Initial Release)
 - Scan **barcodes and QR codes** quickly and accurately using your device camera.
 - **Create a new database** or **upload your product database (CSV/JSON)**.
 - Automatically **load product names from your uploaded database** when a code exists.
@@ -21,9 +24,15 @@ You can **create a new database** or **upload your own product database (CSV/JSO
 - **Works offline** — no internet connection required.
 - Built with **modern Android technologies**: CameraX, ML Kit, and Material Design.
 
-## Download
+### v1.1 (Advanced Mode)
+- Add **selling price** and **buying price** for each product.
+- Track **manufacture date** and **expiry date** for products.
+- Load CSV/JSON databases with extra columns for prices and dates.
+- Highlight **products nearing expiry** for easy alert management.
+- Toggle between **Normal Mode** (basic info) and **Advanced Mode** (detailed tracking).
+- Improved CSV export with all advanced fields included.
 
-You can download the latest release APK from the [Releases page](https://github.com/Owalid-Mez/WCodeReader-Apk/releases).
+---
 
 ## Usage
 
@@ -34,9 +43,38 @@ You can download the latest release APK from the [Releases page](https://github.
 5. If the code is **not found**, you can:
    - Enter the product name manually through the prompt.
    - Delete any scanned item using the **Delete button**.
-6. View all scanned items in the organized list, color-coded for clarity.
-7. Export your product list to CSV for reporting or backup.
-8. Use the toolbar **Close button** to exit the app quickly.
+6. In **Advanced Mode**:
+   - Enter **selling/buying prices**, **manufacture and expiry dates**.
+   - Monitor products that are near expiration.
+7. View all scanned items in the organized list, color-coded for clarity.
+8. Export your product list to CSV for reporting or backup.
+9. Use the toolbar **Close button** to exit the app quickly.
+
+---
+
+## Download
+
+You can download the latest release APK from the [Releases page](https://github.com/Owalid-Mez/WCodeReader-Apk/releases).
+
+---
+
+## Changelog
+
+### v1.1 - 2026-02-05
+- Added **Advanced Mode** with:
+  - Sell/Buy prices
+  - Manufacture & Expiry dates
+  - CSV/JSON database support with extra fields
+  - Expiry alert system
+- Toggle between Normal and Advanced modes for flexible tracking.
+
+### v1.0 - Initial Release
+- Barcode & QR scanning
+- Manual add/delete
+- CSV export
+- Offline mode
+
+---
 
 ## License
 
