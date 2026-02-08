@@ -36,21 +36,32 @@ It features a clean **Material Design** interface, works fully **offline**, and 
 
 ---
 
-### v1.2 (Enhanced Mobile Product Control)
-- **Barcode & QR code scanning** with real-time detection.
-- **Quantity & stock tracking** per product.
-- Stock alerts:
-  - Low stock
-  - Critical stock
-  - Out-of-stock
-- Expiry alerts:
-  - Expired products
-  - Expiring soon (3 / 7 days)
-- **Profit calculation** (Sell − Buy price).
-- Quantity and status indicators with colors and emojis.
-- CSV/JSON import & export with quantity support.
-- Improved alerts visibility and UI feedback.
-- All data stored **locally on the device**.
+### v1.2 (Dual Quantity Tracking & Enhanced Inventory Control)
+- **Dual Quantity System**:
+  - **Scanned Quantity**: Tracks number of times each item is scanned
+  - **Database Quantity**: Imports expected stock from inventory database
+  - **Quantity Comparison**: Automatically detects mismatches between scanned and database quantities
+- **Enhanced Alert System**:
+  - **Stock Level Alerts**: Low stock, critical stock, out-of-stock warnings
+  - **Expiry Alerts**: Expired products & expiring soon (3/7 days) notifications
+  - **Quantity Mismatch Alerts**: Highlights differences between actual scans and expected inventory
+- **Smart Quantity Management**:
+  - **Effective Quantity Display**: Shows accurate stock (prioritizes database quantity when available)
+  - **Quantity Adjustment**: Edit both scanned and database quantities separately
+  - **Mismatch Resolution**: Batch operations to fix quantity discrepancies
+- **Improved Database Handling**:
+  - **Separate Quantity Columns**: Import/export with dedicated scanned/database quantity fields
+  - **Quantity Statistics**: Real-time total quantities and mismatch counts
+  - **Enhanced CSV Export**: Includes quantity differences and detailed status information
+- **Enhanced User Interface**:
+  - **Quantity Breakdown Display**: Shows both quantities side-by-side in list view
+  - **Color-Coded Mismatch Indicators**: Purple highlights for quantity discrepancies
+  - **Real-time Toolbar Updates**: Shows total items and total quantity
+  - **Visual Status Badges**: Improved stock level indicators with emojis
+- **Advanced Scanning Features**:
+  - **Quantity-aware Scanning**: Increments scanned count with each scan
+  - **Smart Database Matching**: Preserves database quantities during scanning
+  - **Mismatch Detection**: Real-time comparison during scanning operations
 
 ---
 
@@ -64,6 +75,8 @@ It features a clean **Material Design** interface, works fully **offline**, and 
 6. Enable **Advanced Mode** to:
    - Manage prices, quantities, and dates
    - Receive stock and expiry alerts
+   - Track both scanned and database quantities
+   - Monitor quantity mismatches
 7. Export products or update the database to CSV.
 8. Use the toolbar **Close button** to exit.
 
@@ -81,10 +94,8 @@ It features a clean **Material Design** interface, works fully **offline**, and 
 
 ## Screenshots (v1.2)
 
-<!-- Replace the image URLs below with your v1.2 screenshots -->
-
 <p align="center">
-   <img src="https://github.com/user-attachments/assets/93b8bddd-ec72-4251-9e62-6ccd90f653c1" width="200" />
+  <img src="https://github.com/user-attachments/assets/93b8bddd-ec72-4251-9e62-6ccd90f653c1" width="200" />
   <img src="https://github.com/user-attachments/assets/1b0c70ac-afdc-4531-8159-0d55d306fb7e" width="200" />
   <img src="https://github.com/user-attachments/assets/258c09a1-3bf5-482a-9193-ce95cdc908a0" width="200" />
   <img src="https://github.com/user-attachments/assets/579190e7-fae8-407b-bd73-bf93045f0a4f" width="200" />
@@ -101,14 +112,15 @@ It features a clean **Material Design** interface, works fully **offline**, and 
 
 ## Changelog
 
-### v1.2 – 2026-02-07
-- Quantity & stock tracking
-- Low, critical, and out-of-stock alerts
-- Expiry and expiring-soon alerts
-- Profit calculation
-- Improved alerts UI and indicators
-- CSV/JSON support with quantities
-- Enhanced Advanced Mode
+### v1.2 – 2026-02-08
+- **Dual Quantity Tracking System**: Separate tracking for scanned counts vs database inventory
+- **Quantity Mismatch Detection**: Automatic alerts for over-scanned/under-scanned items
+- **Enhanced Alert System**: Stock level, expiry, and quantity mismatch notifications
+- **Smart Quantity Management**: Edit both quantity types separately with batch operations
+- **Improved Database Support**: CSV/JSON import with dedicated quantity columns
+- **Enhanced UI**: Quantity breakdown display with color-coded mismatch indicators
+- **Advanced Scanning**: Quantity-aware scanning with real-time comparison
+- **Better Statistics**: Real-time quantity totals and mismatch counts in toolbar
 
 ### v1.1 – 2026-02-05
 - Advanced Mode introduced
